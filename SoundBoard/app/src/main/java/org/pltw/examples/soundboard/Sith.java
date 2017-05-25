@@ -24,6 +24,15 @@ public class Sith extends MainActivity {
     private MediaPlayer mpDV5;//end vader
     public Button mVaderObiWan;
     private MediaPlayer mpDVOW;
+    //the emperor
+    public Button mEmperor1;
+    private MediaPlayer mpE1;
+    public Button mEmperor2;
+    private MediaPlayer mpE2;
+    public Button mEmperor3;
+    private MediaPlayer mpE3;
+    public Button mEmperor4;
+    private MediaPlayer mpE4;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -42,6 +51,15 @@ public class Sith extends MainActivity {
         mpDV5 = MediaPlayer.create(this, R.raw.dv_theme);//end vader
         mVaderObiWan = (Button) findViewById(R.id.vader_obi);
         mpDVOW = MediaPlayer.create(this, R.raw.dv_obi_circleiscomplete);
+        // the emperor
+        mEmperor1 = (Button) findViewById(R.id.emperor1);
+        mpE1 = MediaPlayer.create(this, R.raw.e_expect2);
+        mEmperor2 = (Button) findViewById(R.id.emperor2);
+        mpE2 = MediaPlayer.create(this, R.raw.e_learndarkside);
+        mEmperor3 = (Button) findViewById(R.id.emperor3);
+        mpE3 = MediaPlayer.create(this, R.raw.e_nomercy);
+        mEmperor4 = (Button) findViewById(R.id.emperor4);
+        mpE4 = MediaPlayer.create(this, R.raw.e_willdie);
     }
 
     private void delayPlaying(int delay) throws InterruptedException {
@@ -82,5 +100,25 @@ public class Sith extends MainActivity {
         mpDVOW.seekTo(0);
         Log.e(TAG, "Sith 6 clicked");
         mpDVOW.start();
+    }//start emperor
+    public void onSith7Click(View view) {
+        mpE1.seekTo(0);
+        Log.e(TAG, "Sith 7 clicked");
+        mpE1.start();
+    }
+    public void onSith8Click(View view) {
+        mpE2.seekTo(0);
+        Log.e(TAG, "Sith 8 clicked");
+        mpE2.start();
+    }
+    public void onSith9Click(View view) {
+        mpE3.seekTo(0);
+        Log.e(TAG, "Sith 9 clicked");
+        mpE3.start();
+    }
+    public void onSith10Click(View view) {
+        mpE4.seekTo(0);
+        Log.e(TAG, "Sith 10 clicked");
+        mpE4.start();
     }
 }
