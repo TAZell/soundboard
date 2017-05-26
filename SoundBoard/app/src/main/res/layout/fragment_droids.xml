@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+    >
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Droid 1"
+        android:id="@+id/droid_button1"
+        android:onClick="onDroid_1Click"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Droid 2"
+        android:id="@+id/droid_button2"
+        android:onClick="onDroid_2Click"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Droid 3"
+        android:id="@+id/droid_button3"
+        android:onClick="onDroid_3Click"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Droid 4"
+        android:id="@+id/droid_button4"
+        android:onClick="onDroid_4Click"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Droid 5"
+        android:id="@+id/droid_button5"
+        android:onClick="onDroid_5Click"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Droid 6"
+        android:id="@+id/droid_button6"
+        android:onClick="onDroid_6Click"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Droid 7"
+        android:id="@+id/droid_button7"
+        android:onClick="onDroid_7Click"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Droid 8"
+        android:id="@+id/droid_button8"
+        android:onClick="onDroid_8Click"/>
+</LinearLayout>
