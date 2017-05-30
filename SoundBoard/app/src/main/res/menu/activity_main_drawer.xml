@@ -12,7 +12,7 @@
             android:id="@+id/weapon_sounds"
             android:title="Weapons" />
         <item
-            android:id="@+id/creature_sounds"
+            android:id="@+id/droid_sounds"
             android:title="Creatures" />
     </group>
 

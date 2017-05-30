@@ -17,6 +17,14 @@ public class Weapons extends MainActivity {
     public Button mWeapons5;
     public Button mWeapons6;
     public Button mWeapons7;
+    public Button mWeapons8;
+    public Button mWeapons9;
+    public Button mWeapons10;
+    public Button mWeapons11;
+    public Button mWeapons12;
+    public Button mWeapons13;
+    public Button mWeapons14;
+    public Button mWeapons15;
 
     private MediaPlayer mpW1;
     private MediaPlayer mpW2;
@@ -25,6 +33,15 @@ public class Weapons extends MainActivity {
     private MediaPlayer mpW5;
     private MediaPlayer mpW6;
     private MediaPlayer mpW7;
+    private MediaPlayer mpW8;
+    private MediaPlayer mpW9;
+    private MediaPlayer mpW10;
+    private MediaPlayer mpW11;
+    private MediaPlayer mpW12;
+    private MediaPlayer mpW13;
+    private MediaPlayer mpW14;
+    private MediaPlayer mpW15;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -38,25 +55,31 @@ public class Weapons extends MainActivity {
         mWeapons5 = (Button) findViewById(R.id.Weapons5);
         mWeapons6 = (Button) findViewById(R.id.Weapons6);
         mWeapons7 = (Button) findViewById(R.id.Weapons7);
+        mWeapons8 = (Button) findViewById(R.id.Weapons8);
+        mWeapons9 = (Button) findViewById(R.id.Weapons9);
+        mWeapons10 = (Button) findViewById(R.id.Weapons10);
+        mWeapons11 = (Button) findViewById(R.id.Weapons11);
+        mWeapons12 = (Button) findViewById(R.id.Weapons12);
+        mWeapons13 = (Button) findViewById(R.id.Weapons13);
+        mWeapons14 = (Button) findViewById(R.id.Weapons14);
+        mWeapons15 = (Button) findViewById(R.id.Weapons15);
 
 
-        //mpW1 = MediaPlayer.create(this, R.raw.blaster_ricochet);
-        //mpW2 = MediaPlayer.create(this, R.raw.blaster_solo);
-        //mpW3 = MediaPlayer.create(this, R.raw.dstar_gun4);
+        mpW1 = MediaPlayer.create(this, R.raw.aat_gun);
+        mpW2 = MediaPlayer.create(this, R.raw.atat_sideguns);
+        mpW3 = MediaPlayer.create(this, R.raw.atst_chinguns);
         mpW4 = MediaPlayer.create(this, R.raw.dstar_super1);
         mpW5 = MediaPlayer.create(this, R.raw.falcon_guns);
         mpW6 = MediaPlayer.create(this, R.raw.isd_laser2);
         mpW7 = MediaPlayer.create(this, R.raw.lightsaber_01);
-
-        //mpW1 = MediaPlayer.create(this, R.raw.blaster_imperial);
-
-
-       // mpW2 = MediaPlayer.create(this, R.raw.blaster_ricochet);
-        //mpW3 = MediaPlayer.create(this, R.raw.blaster_solo);
-        //mpW4 = MediaPlayer.create(this, R.raw.dstar_gun4);
-        mpW5 = MediaPlayer.create(this, R.raw.dstar_super1);
-        mpW6 = MediaPlayer.create(this, R.raw.falcon_guns);
-        mpW7 = MediaPlayer.create(this, R.raw.isd_laser2);
+        mpW8 = MediaPlayer.create(this, R.raw.lightsaber_04);
+        mpW9 = MediaPlayer.create(this, R.raw.naboo_torp);
+        mpW10 = MediaPlayer.create(this, R.raw.probe_gun);
+        mpW11 = MediaPlayer.create(this, R.raw.slave1_guns);
+        mpW12 = MediaPlayer.create(this, R.raw.slave1_seismic);
+        mpW13 = MediaPlayer.create(this, R.raw.tie_fire);
+        mpW14 = MediaPlayer.create(this, R.raw.xwing_laser);
+        mpW15 = MediaPlayer.create(this, R.raw.xwing_proton);
 
     }
 
@@ -108,5 +131,53 @@ public class Weapons extends MainActivity {
         mpW7.seekTo(0);
         Log.e(TAG, "weapons 7 clicked");
         mpW7.start();
+    }
+
+    public void onWeapons8Click(View view) {
+        mpW8.seekTo(0);
+        Log.e(TAG, "weapons 8 clicked");
+        mpW8.start();
+    }
+
+    public void onWeapons9Click(View view) {
+        mpW9.seekTo(0);
+        Log.e(TAG, "weapons 9 clicked");
+        mpW9.start();
+    }
+
+    public void onWeapons10Click(View view) {
+        mpW10.seekTo(0);
+        Log.e(TAG, "weapons 10 clicked");
+        mpW10.start();
+    }
+
+    public void onWeapons11Click(View view) {
+        mpW11.seekTo(0);
+        Log.e(TAG, "weapons 11 clicked");
+        mpW11.start();
+    }
+
+    public void onWeapons12Click(View view) {
+        mpW12.seekTo(0);
+        Log.e(TAG, "weapons 12 clicked");
+        mpW12.start();
+    }
+
+    public void onWeapons13Click(View view) {
+        mpW13.seekTo(0);
+        Log.e(TAG, "weapons 13 clicked");
+        mpW13.start();
+    }
+
+    public void onWeapons14Click(View view) {
+        mpW14.seekTo(0);
+        Log.e(TAG, "weapons 14 clicked");
+        mpW14.start();
+    }
+
+    public void onWeapons15Click(View view) {
+        mpW15.seekTo(0);
+        Log.e(TAG, "weapons 15 clicked");
+        mpW15.start();
     }
 }

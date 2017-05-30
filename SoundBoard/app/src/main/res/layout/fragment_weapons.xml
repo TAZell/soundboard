@@ -6,7 +6,7 @@
 
     <LinearLayout
         android:orientation="vertical"
-        android:layout_width="match_parent"
+        android:layout_width="128dp"
         android:layout_height="match_parent">
 
         <Button
@@ -59,6 +59,74 @@
             android:text="weapons7"
             android:id="@+id/Weapons7"
             android:onClick="onWeapons7Click" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Weapons8"
+            android:id="@+id/Weapons8"
+            android:onClick="onWeapons8Click" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="weapons9"
+            android:id="@+id/Weapons9"
+            android:onClick="onWeapons9Click" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Weapons10"
+            android:id="@+id/Weapons10"
+            android:onClick="onWeapons10Click" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="weapons11"
+            android:id="@+id/Weapons11"
+            android:layout_gravity="right"
+            android:onClick="onWeapons11Click" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="weapons12"
+            android:id="@+id/Weapons12"
+            android:layout_gravity="right"
+            android:onClick="onWeapons12Click" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="weapons13"
+            android:id="@+id/Weapons13"
+            android:layout_gravity="right"
+            android:onClick="onWeapons13Click" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="weapons14"
+            android:id="@+id/Weapons14"
+            android:layout_gravity="right"
+            android:onClick="onWeapons14Click" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="weapons15"
+            android:id="@+id/Weapons15"
+            android:layout_gravity="right"
+            android:onClick="onWeapons15Click" />
+
     </LinearLayout>
 
 </LinearLayout>
