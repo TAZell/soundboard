@@ -10,7 +10,7 @@ import android.widget.Button;
  * Created by anthony90113 on 5/18/2017.
  */
 public class Jedi extends MainActivity {
-    /*private static final String TAG = "tag";
+    private static final String TAG = "tag";
 
     private Button jedi1;
     private Button jedi2;
@@ -81,7 +81,7 @@ public class Jedi extends MainActivity {
         jedSound6.seekTo(0);
         Log.e(TAG, "Jedi 1 Clicked");
         jedSound6.start();
-    }*/
+    }
 
 
 }
