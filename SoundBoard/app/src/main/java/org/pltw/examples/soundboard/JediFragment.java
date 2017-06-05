@@ -15,7 +15,7 @@ import android.widget.Button;
 /**
  * Created by anthony90113 on 5/19/2017.
  */
-public class JediFragment extends Fragment{
+public class JediFragment extends Fragment {
 
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.fragment_jedi, container, false);
@@ -23,8 +23,11 @@ public class JediFragment extends Fragment{
         return rootView;
     }
 
-    }
+}
 
 
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> refs/remotes/AnthonyYounkin/development
