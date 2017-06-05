@@ -27,7 +27,4 @@ public class JediFragment extends Fragment {
 
 
 
-<<<<<<< HEAD
 
-=======
->>>>>>> refs/remotes/AnthonyYounkin/development
