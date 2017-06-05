@@ -46,8 +46,6 @@ public class DroidsFragment extends Fragment {
         droid8 = (Button) rootView.findViewById(R.id.droid_button8);
 
 
-
-
         droidSound1 = MediaPlayer.create(getActivity(), R.raw.c3po_alerted);
         droidSound2 = MediaPlayer.create(getActivity(), R.raw.c3po_technical);
         droidSound3 = MediaPlayer.create(getActivity(), R.raw.c3po_yourfault);
@@ -75,48 +73,64 @@ public class DroidsFragment extends Fragment {
             }
         });
 
+        droid3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                droidSound3.seekTo(0);
+                Log.e(TAG, "Droid 3 Clicked");
+                droidSound3.start();
+            }
+        });
+
+        droid4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                droidSound4.seekTo(0);
+                Log.e(TAG, "Droid 4 Clicked");
+                droidSound4.start();
+            }
+        });
+
+        droid5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                droidSound5.seekTo(0);
+                Log.e(TAG, "Droid 5 Clicked");
+                droidSound5.start();
+            }
+        });
+
+        droid6.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                droidSound6.seekTo(0);
+                Log.e(TAG, "Droid 6 Clicked");
+                droidSound6.start();
+            }
+        });
+
+        droid7.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                droidSound7.seekTo(0);
+                Log.e(TAG, "Droid 7 Clicked");
+                droidSound7.start();
+            }
+        });
+
+        droid8.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                droidSound8.seekTo(0);
+                Log.e(TAG, "Droid 8 Clicked");
+                droidSound8.start();
+            }
+        });
+
 
         return rootView;
     }
-
-
-
-
-
-    public void onDroid_3Click(View v) {
-        droidSound3.seekTo(0);
-        Log.e(TAG, "Droid 3 Clicked");
-        droidSound3.start();
-    }
-
-    public void onDroid_4Click(View v) {
-        droidSound4.seekTo(0);
-        Log.e(TAG, "Droid 4 Clicked");
-        droidSound4.start();
-    }
-
-    public void onDroid_5Click(View v) {
-        droidSound5.seekTo(0);
-        Log.e(TAG, "Droid 5 Clicked");
-        droidSound5.start();
-    }
-
-    public void onDroid_6Click(View v) {
-        droidSound6.seekTo(0);
-        Log.e(TAG, "Droid 6 Clicked");
-        droidSound6.start();
-    }
-
-    public void onDroid_7Click(View v) {
-        droidSound7.seekTo(0);
-        Log.e(TAG, "Droid 7 Clicked");
-        droidSound7.start();
-    }
-
-    public void onDroid_8Click(View v) {
-        droidSound8.seekTo(0);
-        Log.e(TAG, "Droid 8 Clicked");
-        droidSound8.start();
-    }
-
 }
+
+
+
